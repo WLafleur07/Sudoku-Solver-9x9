@@ -40,13 +40,34 @@ int SudokuSolver::GetRowNum()
 
 void SudokuSolver::PrintBoard(int board[rowAndColumnLen][rowAndColumnLen])
 {
+	cout << "+-----------+-----------+-----------+";
+	cout << endl;
 	for (int i = 0; i < rowAndColumnLen; i++)
 	{
+		cout << "| ";
 		for (int j = 0; j < rowAndColumnLen; j++)
 		{
-			cout << board[i][j] << " ";
+			cout << board[i][j];
+
+			if (j == 2 || j == 5 || j == 8)
+			{
+				cout << " | ";
+			}
+			else
+			{
+				cout << "   ";
+			}
 		}
-		cout << endl << endl;
+		cout << endl;
+		if ( i == 2 || i == 5 || i == 8)
+		{
+			cout << "+-----------+-----------+-----------+"; 
+			cout << endl;
+		}
+		else
+		{
+			cout << "|           |		|           |" << endl;
+		}
 	}
 }
 

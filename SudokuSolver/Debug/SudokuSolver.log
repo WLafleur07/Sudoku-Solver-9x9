@@ -1,6 +1,4 @@
 ﻿  SudokuSolver.cpp
-D:\Extra Projects\SudokuSolver\SudokuSolver\SudokuSolver.cpp(106,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\Extra Projects\SudokuSolver\SudokuSolver\SudokuSolver.cpp(125,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  main.cpp
-  Generating Code...
+D:\Extra Projects\SudokuSolver\SudokuSolver\SudokuSolver.cpp(131,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Extra Projects\SudokuSolver\SudokuSolver\SudokuSolver.cpp(150,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   SudokuSolver.vcxproj -> D:\Extra Projects\SudokuSolver\Debug\SudokuSolver.exe
